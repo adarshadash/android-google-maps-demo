@@ -60,7 +60,7 @@ public class MapDemoActivity extends AppCompatActivity {
         setContentView(R.layout.map_demo_activity);
 
         if (TextUtils.isEmpty(getResources().getString(R.string.google_maps_api_key))) {
-            throw new IllegalStateException("You forgot to supply a Google Maps API key");
+            throw new IllegalStateException("You forgot to supply a Google aMps API key");
         }
 
         if (savedInstanceState != null && savedInstanceState.keySet().contains(KEY_LOCATION)) {
